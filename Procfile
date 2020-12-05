@@ -1,1 +1,1 @@
-web: gunicorn djangotypescriptreact.wsgi
+web: gunicorn core.wsgi
