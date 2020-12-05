@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom'
 function Root() {
     return (
         <div>
-            <p>this</p>
+            <p>This is a template refer to the readme for details</p>
         </div>
     )
 }
