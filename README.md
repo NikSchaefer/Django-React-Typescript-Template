@@ -11,7 +11,7 @@ setup .env
 rename .env.example to just .env
 
 set secret key in .env by generating a key with
-[This site](https://humberto.io/blog/tldr-generate-django-secret-key/)
+[This site](https://miniwebtool.com/django-secret-key-generator/)
 
 install depenecies for pip
 in base dir
