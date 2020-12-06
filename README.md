@@ -4,7 +4,7 @@ Django Backend React Typescript frontend template configured for Heroku easy dep
 
 # Setup
 
-create virtual env (optional)
+[create virtual env](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/)
 
 then
 setup .env
