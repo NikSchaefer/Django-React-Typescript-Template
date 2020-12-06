@@ -32,6 +32,11 @@ then cd into frontend
 run frontend
 `npm run dev`
 
+# Deployment
+
+Configured for Heroku
+Make sure to set Enviroment Variables in Heroku
+
 # License
 
 MIT License
