@@ -1,32 +1,25 @@
-const path = require("path");
-const webpack = require("webpack");
+const path = require('path');
 
 module.exports = {
-    entry: "./src/index.js",
-    output: {
-        path: path.resolve(__dirname, "./static/frontend"),
-        filename: "[name].js",
-    },
+    entry: './src/index.tsx',
+    devtool: 'inline-source-map',
     module: {
         rules: [
             {
-                test: /\.js$/,
+                test: /\.tsx?$/,
+                use: 'ts-loader',
                 exclude: /node_modules/,
-                use: {
-                    loader: "babel-loader",
-                },
             },
         ],
+    },
+    resolve: {
+        extensions: ['.tsx', '.ts', '.js'],
     },
     optimization: {
         minimize: true,
     },
-    plugins: [
-        new webpack.DefinePlugin({
-            "process.env": {
-                // This has effect on the react lib size
-                NODE_ENV: JSON.stringify("production"),
-            },
-        }),
-    ],
+    output: {
+        filename: 'main.js',
+        path: path.resolve(__dirname, '/static/frontend'),
+    },
 };
