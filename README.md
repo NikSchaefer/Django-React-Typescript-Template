@@ -2,6 +2,10 @@
 
 Django Backend React Typescript frontend template configured for Heroku easy deployment
 
+React is configured with webpack and tsconfig. 
+
+Backend Utilizes Django rest framework and the /api points to backend urls.
+
 # Setup
 
 [create virtual env](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/)
