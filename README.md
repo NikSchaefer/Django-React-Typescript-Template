@@ -2,6 +2,8 @@
 
 Django Backend React Typescript frontend template configured for Heroku easy deployment
 
+Django static files is configured with whitenoise to serve its own static files
+
 React is configured with webpack and tsconfig. 
 
 Backend Utilizes Django rest framework and the /api points to backend urls.
